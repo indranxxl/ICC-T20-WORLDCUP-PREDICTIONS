@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICC T20 World Cup 2024</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://img.freepik.com/premium-vector/banner-with-cricket-tournaments-bat_1302-18992.jpg');
+            color: #fff;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #0053A0;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        .flag {
+            width: 15px; /* Reduced width for smaller flag display */
+            height: 10px; /* Adjusted height for aspect ratio */
+            margin-right: 5px; /* Smaller margin */
+            vertical-align: middle;
+        }
+    </style>
+    
+</head>
+<body>
+
+    <header>
+        <h1>ICC T20 World Cup 2024</h1>
+    </header>
+
+
+    <h2>Match Predictions</h2>
+    <ul id="matchResults"></ul>
+    <script>
+        const matchResults = [
+    { matchNumber: 1, winner: "USA" },
+    { matchNumber: 2, winner: "West Indies" },
+    { matchNumber: 3, winner: "Oman" },
+    { matchNumber: 4, winner: "South Africa" },
+    { matchNumber: 5, winner: "Afghanistan" },
+    { matchNumber: 6, winner: "England" },
+    { matchNumber: 7, winner: "Nepal" },
+    { matchNumber: 8, winner: "India" },
+    { matchNumber: 9, winner: "Uganda" },
+    { matchNumber: 10, winner: "Australia" },
+    { matchNumber: 11, winner: "Pakistan" },
+    { matchNumber: 12, winner: "Scotland" },
+    { matchNumber: 13, winner: "Ireland" },
+    { matchNumber: 14, winner: "New Zealand" },
+    { matchNumber: 15, winner: "Bangladesh" },
+    { matchNumber: 16, winner: "South Africa" },
+    { matchNumber: 17, winner: "Australia" },
+    { matchNumber: 18, winner: "West Indies" },
+    { matchNumber: 19, winner: "India" },
+    { matchNumber: 20, winner: "Oman" },
+    { matchNumber: 21, winner: "South Africa" },
+    { matchNumber: 22, winner: "Pakistan" },
+    { matchNumber: 23, winner: "Sri Lanka" },
+    { matchNumber: 24, winner: "Australia" },
+    { matchNumber: 25, winner: "India" },
+    { matchNumber: 26, winner: "New Zealand" },
+    { matchNumber: 27, winner: "Bangladesh" },
+    { matchNumber: 28, winner: "England" },
+    { matchNumber: 29, winner: "Afghanistan" },
+    { matchNumber: 30, winner: "USA" },
+    { matchNumber: 31, winner: "South Africa" },
+    { matchNumber: 32, winner: "New Zealand" },
+    { matchNumber: 33, winner: "India" },
+    { matchNumber: 34, winner: "England" },
+    { matchNumber: 35, winner: "Australia" },
+    { matchNumber: 36, winner: "Pakistan" },
+    { matchNumber: 37, winner: "Bangladesh" },
+    { matchNumber: 38, winner: "Sri Lanka" },
+    { matchNumber: 39, winner: "New Zealand" },
+    { matchNumber: 40, winner: "Afghanistan" }
+];
+
+function displayResults() {
+    const resultsList = document.getElementById("matchResults");
+    matchResults.forEach(result => {
+        const listItem = document.createElement("li");
+        listItem.textContent = `Match ${result.matchNumber}: Winner - ${result.winner}`;
+        resultsList.appendChild(listItem);
+    });
+}
+window.onload = displayResults;
+</script>
+   
+    
+    <h2>Group A</h2>
+    <table>
+        <tr>
+            <th>Team</th>
+            <th>Matches Played</th>
+            <th>Wins</th>
+            <th>Losses</th>
+            <th>Points</th>
+        </tr>
+        <tr>
+           
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png" alt="India Flag" class="flag">INDIA</td>
+            <td>4</td>
+            <td>4</td>
+            <td>0</td>
+            <td>8</td>
+        </tr>
+        <tr>
+           
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Flag_of_Pakistan.svg" alt="Pakistan Flag" class="flag">PAKISTAN</td>
+            <td>4</td>
+            <td>2</td>
+            <td>2</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td><img src="https://i.ebayimg.com/images/g/nfgAAOSwpaVkfj3o/s-l1600.jpg" alt="Ireland Flag" class="flag">IRELAND</td>
+            <td>4</td>
+            <td>1</td>
+            <td>3</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td><img src="https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/united-states-flag-icon.png"alt="USA Flag" class="flag">USA</td>
+            <td>4</td>
+            <td>1</td>
+            <td>3</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg"alt="CANADA Flag" class="flag">CANADA</td>
+            <td>4</td>
+            <td>0</td>
+            <td>4</td>
+            <td>0</td>
+        </tr>
+    </table>
+
+    <h2>Group B</h2>
+    <table>
+        <tr>
+            <th>Team</th>
+            <th>Matches Played</th>
+            <th>Wins</th>
+            <th>Losses</th>
+            <th>Points</th>
+        </tr>
+        <tr>
+            <td><img src="https://cdn.britannica.com/78/6078-050-18D5DEFE/Flag-Australia.jpg" alt="Australia Flag" class="flag">AUSTRALIA</td>
+            <td>4</td>
+            <td>3</td>
+            <td>1</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td><img src="https://cdn.britannica.com/44/344-050-94536674/Flag-England.jpg" alt="England Flag" class="flag">ENGLAND</td>
+            <td>4</td>
+            <td>2</td>
+            <td>2</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Flag_of_Scotland.svg/1200px-Flag_of_Scotland.svg.png" alt="Scotland Flag" class="flag">SCOTLAND</td>
+            <td>4</td>
+            <td>1</td>
+            <td>3</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Oman.svg/800px-Flag_of_Oman.svg.png" alt="Oman Flag" class="flag">OMAN</td>
+            <td>4</td>
+            <td>1</td>
+            <td>3</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Namibia.svg/800px-Flag_of_Namibia.svg.png" alt="Namibia Flag" class="flag">NAMIBIA</td>
+            <td>4</td>
+            <td>0</td>
+            <td>4</td>
+            <td>0</td>
+        </tr>
+    </table>
+    <h2>Group C</h2>
+    <table>
+        <tr>
+            <th>Team</th>
+            <th>Matches Played</th>
+            <th>Wins</th>
+            <th>Losses</th>
+            <th>Points</th>
+        </tr>
+        <tr>
+            <td><img src="https://cdn.britannica.com/17/3017-050-CD9032F3/Flag-New-Zealand.jpg" alt="New Zealand Flag" class="flag">NEW ZEALAND</td>
+            <td>4</td>
+            <td>3</td>
+            <td>1</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td><img src="https://static.vecteezy.com/system/resources/thumbnails/024/286/508/small_2x/illustration-of-west-indies-flag-design-vector.jpg" alt="West Indies Flag" class="flag">WEST INDIES</td>
+            <td>4</td>
+            <td>2</td>
+            <td>2</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td><img src="https://cdn.britannica.com/40/5340-004-B25ED5CF/Flag-Afghanistan.jpg" alt="Afghanistan Flag" class="flag">AFGHANISTAN</td>
+            <td>4</td>
+            <td>2</td>
+            <td>2</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Flag_of_Uganda.svg/1200px-Flag_of_Uganda.svg.png" alt="Uganda Flag" class="flag">UGANDA</td>
+            <td>4</td>
+            <td>1</td>
+            <td>3</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Flag_of_Papua_New_Guinea.svg/1200px-Flag_of_Papua_New_Guinea.svg.png" alt="Papua Flag" class="flag">PAPUA NEW GUINEA</td>
+            <td>4</td>
+            <td>0</td>
+            <td>4</td>
+            <td>0</td>
+        </tr>
+    </table>
+
+    <h2>Group D</h2>
+    <table>
+        <tr>
+            <th>Team</th>
+            <th>Matches Played</th>
+            <th>Wins</th>
+            <th>Losses</th>
+            <th>Points</th>
+        </tr>
+        <tr>
+            <td><img src="https://cdn.britannica.com/27/4227-050-00DBD10A/Flag-South-Africa.jpg" alt="South Africa Flag" class="flag">SOUTH AFRICA</td>
+            <td>4</td>
+            <td>4</td>
+            <td>0</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/1200px-Flag_of_Bangladesh.svg.png" alt="Bangladesh Flag" class="flag">BANGLADESH</td>
+            <td>4</td>
+            <td>2</td>
+            <td>2</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Sri_Lanka.svg/1200px-Flag_of_Sri_Lanka.svg.png" alt="Sri Lanka Flag" class="flag">SRI LANKA</td>
+            <td>4</td>
+            <td>1</td>
+            <td>3</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Flag_of_Nepal.svg/1200px-Flag_of_Nepal.svg.png" alt="Nepal Flag" class="flag">NEPAL</td>
+            <td>4</td>
+            <td>1</td>
+            <td>3</td>
+            <td>2</td>
+           
+        </tr>
+        <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/255px-Flag_of_the_Netherlands.svg.png" alt="Netherlands Flag" class="flag">NETHERLANDS</td>
+        <td>4</td>
+        <td>0</td>
+        <td>4</td>
+        <td>0</td>
+        <tr>
+            
+        </tr>
+    </table>
+    <div class="super8">
+        <h2>Super 8 Teams</h2>
+        <table>
+            <tr>
+                <th>Group</th>
+                <th>Teams</th>
+            </tr>
+            <tr>
+                <td>A</td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png" alt="India Flag" class="flag">INDIA, <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Flag_of_Pakistan.svg" alt="Pakistan Flag" class="flag">PAKISTAN</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td><img src="https://cdn.britannica.com/78/6078-050-18D5DEFE/Flag-Australia.jpg" alt="Australia Flag" class="flag">AUSTRALIA, <img src="https://cdn.britannica.com/44/344-050-94536674/Flag-England.jpg" alt="England Flag" class="flag">ENGLAND</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td><img src="https://cdn.britannica.com/17/3017-050-CD9032F3/Flag-New-Zealand.jpg" alt="New Zealand Flag" class="flag">NEW ZEALAND, <img src="https://static.vecteezy.com/system/resources/thumbnails/024/286/508/small_2x/illustration-of-west-indies-flag-design-vector.jpg" alt="West Indies Flag" class="flag">WEST INDIES 
+                    / <img src="https://cdn.britannica.com/40/5340-004-B25ED5CF/Flag-Afghanistan.jpg" alt="Afghanistan Flag" class="flag">AFGHANISTAN</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td><img src="https://cdn.britannica.com/27/4227-050-00DBD10A/Flag-South-Africa.jpg" alt="South Africa Flag" class="flag">SOUTH AFRICA, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/1200px-Flag_of_Bangladesh.svg.png" alt="Bangladesh Flag" class="flag">BANGLADESH</td>
+            </tr>
+        </table>
+    </div>
+
+
+</body>
+</html>
